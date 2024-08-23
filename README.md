@@ -1,18 +1,2 @@
-## Hi there 👋,I am Yu Ru
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2000&pause=1500&color=32AC54&center=true&vCenter=true&width=700&lines=Hi+there!+%F0%9F%98%84;I'm+Rootimes!)](https://git.io/typing-svg)
 
-## 程式語言 & 工具 (Languages and Tools) :
-
-### 網站 (Web) :
-![Backend](https://skillicons.dev/icons?i=html,css,js,bootstrap,laravel,flask,mysql,redis,nginx&theme=light)
-
-### 智慧設備(IoT) :
-![IoT](https://skillicons.dev/icons?i=arduino,raspberrypi&theme=light)
-
-### 程式語言(Languages) :
-![IoT](https://skillicons.dev/icons?i=cpp,cs,php,py,matlab&theme=light)
-
-### 工具(Tool) :
-![IoT](https://skillicons.dev/icons?i=git,github,docker,linux,postman,vscode,visualstudio&theme=light)
-
-### 其他(Other) :
-![IoT](https://skillicons.dev/icons?i=ps,ai,md,wordpress&theme=light)
