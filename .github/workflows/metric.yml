@@ -19,6 +19,11 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v4
 
+      - name: Switch to output branch
+        run: |
+          git fetch origin output || git checkout --orphan output
+          git checkout output
+
       - name: Create output directory
         run: mkdir -p dist
 
