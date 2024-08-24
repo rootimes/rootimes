@@ -16,4 +16,4 @@
 
 ## Status
 
-![metric](https://github.com/rootimes/rootimes/blob/output/metrics.svg)
+![metric](https://github.com/rootimes/rootimes/blob/metrics-renders/metrics.svg)
