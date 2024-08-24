@@ -33,7 +33,7 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.GITHUB_TOKEN }}
-          output_action: push
+          output_action: commit
           committer_branch: metrics-renders
           committer_message: "chore: update metrics"
           config_timezone: Asia/Taipei
