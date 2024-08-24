@@ -16,6 +16,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p dist
+
       - name: Generate GitHub metrics
         uses: lowlighter/metrics@latest
         with:
