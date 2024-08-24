@@ -7,4 +7,4 @@
 🌱 Currently learning **Hugo, Nuxt3, Kubernetes**
 
 ---
-![snake animation](https://github.com/rootimes/rootimes/blob/output/github-contribution-grid-snake-dark.svg)
+![snake animation](https://github.com/rootimes/rootimes/blob/output/github-snake-dark.svg)
