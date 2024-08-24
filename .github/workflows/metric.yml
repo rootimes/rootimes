@@ -16,18 +16,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v4
-        with:
-          ref: output
-          fetch-depth: 0
-
-      - name: Create output directory
-        run: mkdir -p dist
-
-      - name: List output directory content
-        run: ls -l dist
-
       - name: Generate GitHub metrics
         uses: lowlighter/metrics@latest
         with:
@@ -40,19 +28,12 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.svg
+          output_action: commit
+          committer_branch: metrics-renders
+          committer_message: "chore: update metrics"
           config_timezone: Asia/Taipei
 
           # Options
-          filename: dist/metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
-
-      - name: Commit and push metrics to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: Update metrics
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
