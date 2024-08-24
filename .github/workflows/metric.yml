@@ -42,3 +42,4 @@ jobs:
           filename: metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
+          plugin_discussions: yes
