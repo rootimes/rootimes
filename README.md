@@ -10,7 +10,7 @@
 
 ## Contribution streak snake
 
-![snake animation](https://github.com/rootimes/blob/rootimes/output/github-snake-dark.svg)
+![snake animation](https://github.com/rootimes/rootimes/blob/output/github-snake-dark.svg)
 
 ---
 
