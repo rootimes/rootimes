@@ -43,5 +43,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           plugin_discussions: yes
+          plugin_discussions_categories_limit: 8
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
