@@ -16,6 +16,11 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+        with:
+          ref: 'metrics-renders'
+
       - name: Generate GitHub metrics
         uses: lowlighter/metrics@latest
         with:
@@ -28,12 +33,12 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.GITHUB_TOKEN }}
-          filename: metrics.svg
           output_action: commit
           committer_branch: metrics-renders
           committer_message: "chore: update metrics"
           config_timezone: Asia/Taipei
-
+          
           # Options
+          filename: metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
