@@ -4,7 +4,7 @@
 
 💫 Main tech stack **TailwindCSS, Laravel, Livewire, Filament**
 
-🌱 Currently learning **Hugo, Nuxt3, Kubernetes**
+🌱 Currently learning **Hugo, Nuxt3, Kubernetes, gitlab**
 
 ---
 
