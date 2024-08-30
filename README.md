@@ -17,3 +17,7 @@
 ## Status
 
 ![metric](https://github.com/rootimes/rootimes/blob/metrics-renders/metrics.svg)
+
+## This is my motto
+
+Don’t worry if it doesn't work right. If everything did, you’d be out of a job." (Mosher’s Law of Software Engineering)
